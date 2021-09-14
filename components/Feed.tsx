@@ -1,5 +1,6 @@
 import InputBox from "./FeedComponents/InputBox";
 import Stories from "./FeedComponents/Stories";
+import Posts from "./Posts";
 
 
 export default function Feed() {
@@ -9,7 +10,7 @@ export default function Feed() {
         {/* Stories */}
         <Stories />
         <InputBox />
-        {/* Posts */}
+        <Posts />
       </div>
     </div>
   );
