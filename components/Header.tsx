@@ -59,9 +59,9 @@ export default function Header() {
 
       <div className="flex items-center sm:space-x-2 justify-end">
         {/* Profile Pic */}
-
+    
         <Image
-          onClick={signOut}
+          onClick={() => signOut()}
           className="rounded-full cursor-pointer"
           src={session.user.image}
           width={40}

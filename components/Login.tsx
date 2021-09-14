@@ -12,7 +12,7 @@ export default function Login() {
         alt="Facebook logo"
       />
       <button
-        onClick={signIn}
+        onClick={() => signIn}
         className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer"
       >
         Login with Facebook
